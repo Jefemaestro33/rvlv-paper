@@ -124,33 +124,27 @@ In a public human cardiac LAFOV PET/CT dataset, a reproducible, registration-sta
 
 **Figure 1.** Per-chamber positronium-lifetime spectra ($\Delta t$ histograms, log scale) for the right and left ventricles at baseline registration, with the background-plus-two-component EMG fits and the fitted flat background. The o-Ps signal is a modest excess over a large accidental background; $\tau_\mathrm{oPs}$(RV) = 1.700 ns, $\tau_\mathrm{oPs}$(LV) = 1.396 ns.
 
-![](figures/fig1_spectra.png){width=95%}
-
-\clearpage
+![](figures/fig1_spectra.png){width=90%}
 
 **Figure 2.** Distribution of the RV-LV lifetime difference across the dense $\pm$ 3-voxel ($\leq$ 8 mm) registration grid (n = 342 shifts). The contrast is positive in 100% of shifts (dispersion 0.09 ns); dashed line, baseline; the difference never crosses zero.
 
-![](figures/fig2_grid_distribution.png){width=90%}
+![](figures/fig2_grid_distribution.png){width=75%}
 
 \clearpage
 
 **Figure 3.** RV-LV lifetime difference versus single-axis registration shift ($\pm$ 16 mm) along each axis. The difference stays positive across the full tested range.
 
-![](figures/fig3_per_axis.png){width=90%}
-
-\clearpage
+![](figures/fig3_per_axis.png){width=80%}
 
 **Figure 4.** RV-LV lifetime difference versus the magnitude of the registration shift; positive throughout.
 
-![](figures/fig4_vs_radius.png){width=90%}
+![](figures/fig4_vs_radius.png){width=75%}
 
 \clearpage
 
 **Figure 5.** Oxygenation ladder. (Left) per-compartment o-Ps lifetime, coloured by oxygenation class, with the pulmonary crossover controls highlighted; (right) lifetime versus nominal oxygen saturation. The flat trend and the null pulmonary-artery–aorta pair indicate the contrast does not track oxygenation.
 
-![](figures/fig5_oxygenation_ladder.png){width=95%}
-
-\clearpage
+![](figures/fig5_oxygenation_ladder.png){width=90%}
 
 **Figure 6.** Lung-air partial-volume check: o-Ps lifetime versus the local lung-air fraction (and the matched-stratum comparison). The blood cores are essentially air-free and lifetime does not track the lung-air fraction.
 
@@ -175,8 +169,6 @@ In a public human cardiac LAFOV PET/CT dataset, a reproducible, registration-sta
 | Left ventricle | oxygenated | 1.358 $\pm$ 0.134 | 1.71 |
 | **Aorta** | **oxygenated** | **1.270 $\pm$ 0.145** | 1.74 |
 | Myocardium (control) | muscle | 1.662 $\pm$ 0.206 | 1.10 |
-
-\clearpage
 
 **Table 2.** Confound-control battery.
 
