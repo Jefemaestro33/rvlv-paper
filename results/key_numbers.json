@@ -1,0 +1,30 @@
+{
+  "subject": "Zenodo 11243763 — [82Rb]Cl human cardiac, Biograph Vision Quadra",
+  "events_total": 529820881,
+  "rv_lv_baseline": {
+    "RV_tau_ns": 1.700, "RV_err_ns": 0.172, "n_RV": 2361542,
+    "LV_tau_ns": 1.396, "LV_err_ns": 0.130, "n_LV": 1950329,
+    "RV_minus_LV_ns": 0.304, "stat_sigma": 1.41,
+    "model": "background + 2-component EMG (Gaussian IRF)"
+  },
+  "matched_vessel_control": {
+    "comparison": "pulmonary artery (deoxy) - aorta (oxy), structure/position-matched",
+    "delta_ns": -0.011, "err_ns": 0.344, "interpretation": "no detectable O2 effect of the RV/LV magnitude"
+  },
+  "registration_stability": {"grid_frac_positive": 1.0, "grid_sd_ns": 0.091, "tested_range_mm": 16},
+  "blood_vs_wall": {"core_delta_ns": 0.43, "rim_delta_ns": 0.03},
+  "chamber_identity": {
+    "method": "tau-free: histoimage reproduction + joint multi-organ panel",
+    "histoimage_corr_best": 0.998, "histoimage_corr_next": 0.600,
+    "mapping": "(-x,+z,-y)", "flip": false
+  },
+  "instrument_82rb": {
+    "source": "Zenodo 12636019 — uniform quartz reference",
+    "events": 390780205,
+    "IRF_t0_ns": 0.0672, "IRF_sigma_ns": 0.0879,
+    "tau_quartz_ns": 1.713, "tau_quartz_paper_bayesian_ns": 1.589,
+    "positional_envelope_ns_over_43mm": [0.194, 0.350],
+    "envelope_note": "systematic bound (order-of-magnitude), not a calibrated gradient; direction unstable across cores"
+  },
+  "verdict": "Reproducible, registration-stable, blood-borne, chamber-identity-confirmed RV>LV o-Ps lifetime pattern (~1.5sigma), NOT attributable to oxygenation: matched-vessel control null and effect falls within the isotope-matched 82Rb instrumental positional envelope. Not a clean in-vivo oxygenation biomarker on this single subject."
+}

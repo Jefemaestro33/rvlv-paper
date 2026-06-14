@@ -1,0 +1,26 @@
+# local environments
+.venv/
+venv/
+
+# raw public data and generated masks are downloaded/generated locally
+raw/
+masks/
+
+# Python/build artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# large generated caches; CSV/JSON headline tables stay tracked
+results/*.npy
+results/heart_region_events.npy
+results/ladder_hists.npy
+results/baseline_hists.npy
+results/extract_meta.json
+results/input_manifest.json
+results/input_manifest.md
+results/coordinate_mapping.json
+results/tsample_hist.npy
+
+# transient logs
+*.log
