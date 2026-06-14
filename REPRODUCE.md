@@ -5,8 +5,15 @@ Each step lists the **expected headline numbers** so you can diff an independent
 
 ```bash
 source .venv/bin/activate
-export PLI_RAW=... PLI_MASKS=...
+export PLI_RAW=/path/to/raw          # contains zenodo_11243763/ and zenodo_12636019/
+export PLI_MASKS=/path/to/masks      # contains totalseg_11243763/ and totalseg_chambers_11243763/
 bash code/run_all.sh          # or run the steps below individually
+```
+
+On the project VM, use:
+```bash
+export PLI_RAW=/mnt/pli_scratch/active_raw/bern
+export PLI_MASKS=/mnt/pli_scratch/work
 ```
 
 ## 1 — Human RV/LV (`code/1_human_rvlv/`)
