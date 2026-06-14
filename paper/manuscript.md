@@ -1,6 +1,6 @@
 # Cardiac positronium lifetime in human PET: a reproducible right–left ventricular contrast that is not explained by blood oxygenation
 
-**Author:** Ernest Darell Plascencia Zermeño¹,²
+**Author:** Ernest Darell Zermeño¹,²
 
 ¹ Universidad Panamericana, Mexico.
 ² Universidad de Guadalajara, Guadalajara, Mexico.
