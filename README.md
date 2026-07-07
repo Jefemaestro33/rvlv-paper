@@ -1,9 +1,10 @@
 # Cardiac positronium-lifetime imaging is not a clean in-vivo oxygenation biomarker
 ### A confound-controlled re-analysis of public long-axial-FOV PET/CT data
 
-> **Status: DRAFT — single subject.** This repository reproduces a cautionary methodological
-> result on one public human dataset. The conclusion is a *null with controls*, not a positive
-> claim; multi-subject replication is the natural next step (see `AUDIT.md` §next).
+> **Status: medRxiv preprint — single subject.** This repository reproduces a cautionary
+> methodological result on one public human dataset. DOI:
+> https://doi.org/10.64898/2026.06.14.26355630. The conclusion is a *null with controls*,
+> not a positive claim; multi-subject replication is the natural next step (see `AUDIT.md` §next).
 
 ## TL;DR
 Ortho-positronium (o-Ps) lifetime is increasingly proposed as an in-vivo biomarker of tissue
@@ -56,6 +57,7 @@ pipeline (Codex) caught and corrected two over-claims during development (see `A
 adversarial cross-check is part of the method, not an afterthought.
 
 ## License & citation
-Code: MIT. Text & figures: CC-BY-4.0. Citation: *TBD (preprint in preparation).*
+Code: MIT. Text & figures: CC-BY-4.0. Citation: medRxiv preprint,
+doi: https://doi.org/10.64898/2026.06.14.26355630.
 Built on the public data of Mercolli, Steinberger et al. (Inselspital Bern) — please cite their
 original deposits (Zenodo 11243763, 12636019; EJNMMI Phys 2024/2025) when using this work.
